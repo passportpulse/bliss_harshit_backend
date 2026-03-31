@@ -108,7 +108,6 @@ const OrderSchema = new Schema<IOrder>(
 );
 
 // Create indexes for faster queries
-OrderSchema.index({ orderId: 1 });
 OrderSchema.index({ user: 1 });
 OrderSchema.index({ customerEmail: 1 });
 OrderSchema.index({ razorpayOrderId: 1 });
