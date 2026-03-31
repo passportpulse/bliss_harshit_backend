@@ -59,7 +59,7 @@ export const NAV_DATA = [
     label: "MANAGEMENT",
     items: [
       {
-        title: "Veda Consulting",
+        title: "Consulting",
         url: "/dashboard/tables",
         icon: Icons.Table,
         items: [],

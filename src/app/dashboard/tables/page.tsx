@@ -136,7 +136,7 @@ export default function VedaconsultingPage() {
 
   return (
     <div className="max-w-5xl mx-auto p-6">
-      <h1 className="text-2xl font-bold mb-4 flex items-center gap-2">🧑‍⚕️ Veda Consulting
+      <h1 className="text-2xl font-bold mb-4 flex items-center gap-2">🧑‍⚕️ Consulting
         <button
           className="ml-auto bg-blue-600 hover:bg-blue-700 text-white px-3 py-1 rounded flex items-center gap-1"
           onClick={() => openModal()}
@@ -221,7 +221,7 @@ export default function VedaconsultingPage() {
             >
               <X className="h-5 w-5" />
             </button>
-            <h2 className="text-xl font-bold mb-4">{editId ? 'Edit' : 'Add'} Veda Consulting</h2>
+            <h2 className="text-xl font-bold mb-4">{editId ? 'Edit' : 'Add'} Consulting</h2>
             {error && <div className="text-red-600 mb-2">{error}</div>}
             <form onSubmit={handleSubmit} className="space-y-3">
               <input

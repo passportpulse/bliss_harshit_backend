@@ -88,7 +88,7 @@ export default function Dashboard() {
       href: "/dashboard/orders"
     },
     {
-      title: "Veda Consulting",
+      title: "Consulting",
       value: stats.totalVedaConsulting,
       icon: HeadphonesIcon,
       color: "bg-purple-500",
